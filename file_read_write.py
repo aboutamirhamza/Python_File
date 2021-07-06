@@ -1,0 +1,6 @@
+f_create = open("read_write.txt", "x")
+f_write = open("read_write.txt", "r+")
+f_write.write("Hello World\nThis is Read & Write File Only\nHappy Coding\nHappy Hacking")
+f_read = open("read_write.txt", "r")
+print(f_read.read())
+f_read.close()

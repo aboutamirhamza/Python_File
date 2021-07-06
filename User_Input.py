@@ -1,0 +1,10 @@
+import time
+user1 = input("Name: ")
+user2 = input("Address: ")
+user3 = input("Contact: ")
+file = open("user.txt", "r+")
+file.write(f"Name: {user1}\nAddress: {user2}\nContact: {user3}")
+file = open("user.txt", "r")
+print(file.read())
+file.close()
+time.sleep(5)

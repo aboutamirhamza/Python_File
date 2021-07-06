@@ -1,0 +1,1 @@
+f_create = open("file_create.txt", "x")
